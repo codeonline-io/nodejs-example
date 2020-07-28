@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-example",
+  "version": "1.0.0",
+  "description": "A Simple Hello World example to get started with the NodeJS Toolset in CodeOnline",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node-dev --project tsconfig.json --respawn -- src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeonline-io/nodejs-example.git"
+  },
+  "keywords": [
+    "codeonline",
+    "vscode",
+    "nodejs",
+    "toolset",
+    "example"
+  ],
+  "author": "S. Hermans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeonline-io/nodejs-example/issues"
+  },
+  "homepage": "https://github.com/codeonline-io/nodejs-example#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.26",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}
