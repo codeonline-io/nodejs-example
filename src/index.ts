@@ -9,7 +9,7 @@ async function main(): Promise<void> {
     res.send("Hello World");
   });
 
-  let port = 3000;
+  let port = 8080;
 
   await new Promise((resolve, reject) => {
     app.listen(port, () => {
